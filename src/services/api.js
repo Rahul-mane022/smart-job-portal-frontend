@@ -1,7 +1,7 @@
 import axios from "axios";
 
 const api = axios.create({
-  baseURL: "https://smart-job-portal-backend-wz8u.onrender.com", 
+  baseURL: "https://smart-job-portal-backend-wz8u.onrender.com/api", 
 });
 
 api.interceptors.request.use(
